@@ -1,3 +1,8 @@
-print("hello")
-print("Long's here")
-print("Quy Luyt is here")
+from tkinter import *
+
+window = Tk()
+window.title("Bookstore")
+window.geometry("600x700")
+window.iconphoto(True, PhotoImage(file="logo.png"))
+
+window.mainloop()
